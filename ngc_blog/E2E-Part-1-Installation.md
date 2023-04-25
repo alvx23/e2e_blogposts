@@ -1,16 +1,16 @@
-# Part 1 End-to-End Example training object detection model using NVIDIA Pytorch Container from NGC
+# Part 1 End-to-End Example training object detection model using NVIDIA PyTorch Container from NGC
 ## Installation
  ----
 
-Note this Object Detection demo is based on https://github.com/pytorch/vision/tree/v0.11.3
+*Note this Object Detection demo is based on https://github.com/pytorch/vision/tree/v0.11.3
 
-This notebook walks you each step to train a model using containers from the NGC Catalog. We chose the GPU optimized Pytorch container as an example. The basics of working with docker containers apply to all NGC containers.
+This notebook walks you each step to train a model using containers from the NGC Catalog. We chose the GPU-optimized PyTorch container as an example. The basics of working with Docker containers apply to all NGC containers.
 
 We will show you how to:
 
 * Install the Docker Engine on your system
-* Pull a Pytorch container from the NGC Catalog using Docker
-* Run the Pytorch container using Docker
+* Pull a PyTorch container from the NGC Catalog using Docker
+* Run the PyTorch container using Docker
 
 Let's get started!
 
@@ -23,6 +23,7 @@ Go to https://docs.docker.com/engine/install/ to install the Docker Engine on yo
 ### 2. Download the TensorFlow container from the NGC Catalog 
 
 Once the Docker Engine is installed on your machine, visit https://ngc.nvidia.com/catalog/containers and search for the TensorFlow container. Click on the TensorFlow card and copy the pull command.
+
 UPDATE IMG
 <img src="https://raw.githubusercontent.com/kbojo/images/master/NGC.png">
 
@@ -52,8 +53,7 @@ Open up your favorite browser and enter: http://localhost:8888/?token=*yourtoke
 UPDATE IMG
 <img src="https://raw.githubusercontent.com/kbojo/images/master/commandline2.png">
 
-You should see the Jupyter Lab application. Click on the plus icon to launch a new Python 3 noteb
-ook.
+You should see the Jupyter Lab application. Click on the plus icon to launch a new Python 3 notebook.
 
 Follow along with the image classification with the TensorFlow example provided below.
 
